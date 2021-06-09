@@ -4,6 +4,7 @@
 ## Download
 
 You can download the latest version of the application by checking the Release Tree.
+If you do not need to inspect the source code, downloading `iSAMS_Utilities_Reporting_CustomFieldRenaming_exe.zip` from the release will provide you with an executable file and an example `config.json` file.
 
 ## Configuration
 
