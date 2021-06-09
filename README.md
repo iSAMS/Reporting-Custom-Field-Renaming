@@ -23,9 +23,9 @@ Wherever you decide to unpack the latest download, you will need to create a `co
 
 **Domain** - This will be the host URL that is used to access your iSAMS instance. This will typically end with `isams.cloud`.
 
-**RestApiClientId** - Each Client within your iSAMS instance will have a unique ID. For the application to work, the chosen Client ID must have access to the `restapi` scope of the `iSAMS.Portal.Student.Api` Client.
+**RestApiClientId** - Each Client within your iSAMS instance will have a unique ID. For the application to work, the chosen Client ID must have access to the `restapi` scope of the `iSAMS.Portal.Student.Api` Client. ***Please contact the iSAMS Helpdesk and Technical Support team if you do not already have this information.***
 
-**RestAPIClientSecret** - Each Client has a Secret key used to validate a request.
+**RestAPIClientSecret** - This is a string of numbers and letters which is used to authenticate with the specified `RestAPIClientId`. ***Please contact the iSAMS Helpdesk and Technical Support team if you do not already have this information.***
 
 **TargetDirectory** - This is the absolute path to the folder containing your exported reports. Ensure that the directory is not a `ZIP` file.
 
