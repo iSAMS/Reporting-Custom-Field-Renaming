@@ -92,6 +92,7 @@ namespace iSAMS.Utilities.Reporting.CustomFieldRenaming
                 using (StreamReader reader = new StreamReader(path))
                 {
                     string json = reader.ReadToEnd();
+                    json = json.Replace(@"\", @"\\\\");
                     Config = JsonConvert.DeserializeObject<ScriptConfiguration>(json);
                     Console.WriteLine("Utility settings parsed successfully.");
                 }
